@@ -9,6 +9,7 @@ set(TEST_DIR test)
 set(MAIN_DIR ./..)
 set(BUILD_DIR build)
 set(UNITY_SOURCE_DIR ../unity_test_framework)
+set(CMAKE_BUILD_TYPE Debug)
 
 # create/find the required libraries
 add_library(unity STATIC ${UNITY_SOURCE_DIR}/unity.c)
